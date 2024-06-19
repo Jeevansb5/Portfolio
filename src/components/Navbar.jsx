@@ -11,9 +11,9 @@ const Navbar = () => {
                 <h1 className="mx-2 w-10 text-4xl">JSB</h1>
             </div>
             <div className="flex justify-center items-center gap-4 m-6 text-2xl">
-                <FaLinkedin />
-                <FaGithub />
-                <FaInstagram />
+                <a href="//linkedin.com/in/jeevan-sb-1695641a2"> <FaLinkedin /></a>
+                <a href="//github.com/Jeevansb5"> <FaGithub /></a>
+                <a href="//www.instagram.com/jeevan_af_?igsh=b2todTh1YTc5Z2M4"><FaInstagram /></a>
             </div>
         </nav>
     )
